@@ -9,7 +9,7 @@ spec:
   source:
     path: {{ $app.appname }}
     repoURL: 'https://github.com/Ricky-Envi/ArgoCDtest.git'
-    targetRevision: main
+    targetRevision: HEAD
     helm:
       valueFiles:
         - values.yaml
